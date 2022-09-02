@@ -3,12 +3,10 @@ package data;
 public class data {
 	private int  velocidad;
 	private int tiempo;
-	private int distancia;
+	protected int distancia;
 	public data(int velocidad, int tiempo, int distancia) {
 		super();
-		this.velocidad = velocidad;
-		this.tiempo = tiempo;
-		this.distancia = distancia;
+		
 	}
 	public int getVelocidad() {
 		return velocidad;
